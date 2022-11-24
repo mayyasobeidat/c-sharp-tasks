@@ -6,3 +6,11 @@ C:\Users\dell\source\repos\21November\21November\bin\Debug\21November.exe
 C:\Users\dell\source\repos\21November\21November\bin\Debug\21November.pdb
 C:\Users\dell\source\repos\21November\21November\obj\Debug\21November.exe
 C:\Users\dell\source\repos\21November\21November\obj\Debug\21November.pdb
+C:\Users\dell\c-sharp-tasks\21November\21November\bin\Debug\21November.exe.config
+C:\Users\dell\c-sharp-tasks\21November\21November\bin\Debug\21November.exe
+C:\Users\dell\c-sharp-tasks\21November\21November\bin\Debug\21November.pdb
+C:\Users\dell\c-sharp-tasks\21November\21November\obj\Debug\21November.csproj.AssemblyReference.cache
+C:\Users\dell\c-sharp-tasks\21November\21November\obj\Debug\21November.csproj.SuggestedBindingRedirects.cache
+C:\Users\dell\c-sharp-tasks\21November\21November\obj\Debug\21November.csproj.CoreCompileInputs.cache
+C:\Users\dell\c-sharp-tasks\21November\21November\obj\Debug\21November.exe
+C:\Users\dell\c-sharp-tasks\21November\21November\obj\Debug\21November.pdb

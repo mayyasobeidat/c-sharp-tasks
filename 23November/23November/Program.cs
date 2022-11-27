@@ -224,7 +224,37 @@ namespace _23November
         static void Main(string[] args)
             {
 
-           
+
+            //Task1
+            sumAndAvgTask1();
+
+            //Task2
+            cubeTask2();
+
+            //Task3
+            getYearsTask3();
+
+            //Task4
+            AgeTask4();
+
+            //Task5
+            animalsTask5();
+
+            //Task6
+            logInTask6();
+
+            //Task7
+            powerTask7();
+
+            //Task8
+            leapYearTask8();
+
+            //Task9
+            primeNumbersTask9();
+
+            //Task10
+            SentenceTask10();
+
 
 
         }

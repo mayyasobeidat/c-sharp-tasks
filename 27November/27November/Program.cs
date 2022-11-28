@@ -23,6 +23,9 @@ namespace _27November
             if (myAge <= 18 || myAge >= 60)
             {
                 Console.WriteLine("Your age is outside the allowed range");
+                string m = Convert.ToString(age);
+                m = "error";
+
             }
 
             else
@@ -34,16 +37,19 @@ namespace _27November
             name = myName;  
             email = myEmail;
             id = myId;
-            phone = myPhone;
+            phone = myPhone;    
+
 
             string keyNum = myPhone.Substring(0, 3);
-            if (keyNum != "077" || keyNum != "078" || keyNum != "079")
+            if (keyNum == "077" || keyNum == "078" || keyNum == "079")
             {
-                Console.WriteLine("The phone number is wrong");
+                phone = myPhone;
+
             }
             else 
             {
-                phone = myPhone;
+                Console.WriteLine("The phone number is wrong");
+                phone = "error";
             }
         }
 
@@ -64,7 +70,7 @@ namespace _27November
     {
         static void Main(string[] args)
         {
-            personal myInfo = new personal(26, "Male", "Mayyas", "mayyasobeidat@gmail.com", "000000000" , "0797383346");
+            personal myInfo = new personal(2, "Male", "Mayyas", "mayyasobeidat@gmail.com", "000000000" , "0797383346");
             myInfo.PersonalInfo();
         }
     }

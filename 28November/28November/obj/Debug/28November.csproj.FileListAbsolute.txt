@@ -1,0 +1,8 @@
+C:\Users\dell\c-sharp-tasks\28November\28November\bin\Debug\28November.exe.config
+C:\Users\dell\c-sharp-tasks\28November\28November\bin\Debug\28November.exe
+C:\Users\dell\c-sharp-tasks\28November\28November\bin\Debug\28November.pdb
+C:\Users\dell\c-sharp-tasks\28November\28November\obj\Debug\28November.csproj.AssemblyReference.cache
+C:\Users\dell\c-sharp-tasks\28November\28November\obj\Debug\28November.csproj.SuggestedBindingRedirects.cache
+C:\Users\dell\c-sharp-tasks\28November\28November\obj\Debug\28November.csproj.CoreCompileInputs.cache
+C:\Users\dell\c-sharp-tasks\28November\28November\obj\Debug\28November.exe
+C:\Users\dell\c-sharp-tasks\28November\28November\obj\Debug\28November.pdb

@@ -9,9 +9,9 @@ namespace _29November
 {
     class Employee
     {
-        public string Name { get; set; }
-        public int birthOfDate { get; set; }
-        public string Id { get; set; }
+        public string Name { get;  }
+        public int birthOfDate { get; }
+        public string Id { get; }
 
         public Employee(string _Name, int _birthOfDate, string _Id)
         {
@@ -22,8 +22,8 @@ namespace _29November
         }
 
         public void BD (int year)
-        {
-            int birth = 2022 - year;
+        {int v=Convert.ToInt32(DateTime.Now.Year);
+            int birth = v - year; 
             Console.WriteLine("Your Age : "+birth);
         }
 
@@ -39,8 +39,6 @@ namespace _29November
             Console.WriteLine(birthOfDate);
             Console.WriteLine(Id);
         }
-
-
     
     }
 
@@ -64,10 +62,10 @@ namespace _29November
     {
         static void Main(string[] args)
         {
-            Manager details = new Manager("Mohammad", 1980, "785416");
+            Manager details = new Manager("Mayyas", 1996, "785416");
      
             details.print();
-            details.BD(2001);
+            details.BD(1996);
             details.BD();
 
 

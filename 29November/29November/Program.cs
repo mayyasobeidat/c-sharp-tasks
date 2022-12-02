@@ -10,10 +10,10 @@ namespace _29November
     class Employee
     {
         public string Name { get;  }
-        public int birthOfDate { get; }
+        public DateTime birthOfDate { get; }
         public string Id { get; }
 
-        public Employee(string _Name, int _birthOfDate, string _Id)
+        public Employee(string _Name, DateTime _birthOfDate, string _Id)
         {
             Name = _Name;
             birthOfDate = _birthOfDate;
@@ -46,7 +46,7 @@ namespace _29November
 
     class Manager : Employee
     {
-        public Manager(string _Name, int _birthOfDate, string _Id) : base(_Name, _birthOfDate, _Id)
+        public Manager(string _Name, DateTime _birthOfDate, string _Id) : base(_Name, _birthOfDate, _Id)
         {
 
         }

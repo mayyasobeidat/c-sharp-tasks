@@ -8,7 +8,9 @@
 </head>
 <body style="width: 1050px; height: 538px;">
     <form id="form1" runat="server">
-        
+
+        <img src ="1.png" />
+
         <div style="border-style: solid; width: 505px; display : flex ; flex-direction : column; align-content : center ; align-items:center">
 
         <p>

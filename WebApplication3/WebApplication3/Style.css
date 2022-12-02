@@ -1,0 +1,1103 @@
+﻿body {
+    margin: 0px;
+    background-color: #DCDCDC;
+    width: 100%;
+}
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(201, 201, 201);
+}
+
+    ul.topnav li {
+        float: left;
+    }
+
+        ul.topnav li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 10px;
+            text-decoration: none;
+        }
+
+
+
+
+        ul.topnav li.right {
+            float: right;
+            padding-right: 20px;
+        }
+
+#logo {
+    width: 80px;
+    padding-left: 50px;
+    padding-top: 5px;
+}
+
+.divgallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+
+.mayyasgallery {
+    opacity: 0.8;
+    width: 500px;
+}
+
+    .mayyasgallery:hover {
+        opacity: 1;
+    }
+
+.mayyasgallery2 {
+    opacity: 0.8;
+    width: 230px;
+}
+
+    .mayyasgallery2:hover {
+        opacity: 1;
+    }
+
+.topnav a:hover {
+    background-color: #FECB00;
+    color: black;
+}
+
+.topnav img:hover {
+    background-color: #FECB00;
+    color: black;
+    height: auto;
+    padding: 9px;
+}
+
+
+
+.headerpic {
+    background-image: url("images/headerpic.png");
+    padding: 100px 210px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+}
+
+#myname {
+    font-size: 60px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+button {
+    background-color: #FECB00;
+    color: white;
+    border: 2px solid #FECB00;
+    font-size: 16px;
+    margin: 0px 10px;
+    padding: 10px 10px;
+}
+
+    button:hover {
+        background-color: #DCDCDC;
+        border: 2px solid #FECB00;
+        color: black;
+    }
+
+#buttondownload {
+    padding: 0px 90px;
+}
+
+
+
+.education {
+    background-color: #DCDCDC;
+}
+
+.educationmayyas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 75px;
+}
+
+#div2023 {
+    position: absolute;
+    bottom: 315px;
+    left: 475px;
+}
+
+#div2022 {
+    position: absolute;
+    bottom: 180px;
+    left: 475px;
+}
+
+#line1 {
+    position: absolute;
+    top: 158px;
+    left: 645px;
+}
+
+#line2 {
+    position: absolute;
+    top: 22px;
+    left: 645px;
+}
+
+
+
+.titles {
+    font-size: 50px;
+    padding-left: 180px;
+    padding-top: 40px;
+}
+
+.fa-solid {
+    color: #FECB00;
+}
+
+h1.firsttext {
+    font-size: 25px;
+}
+
+p.firsttext {
+    font-size: 15px;
+}
+
+.secondtext {
+    font-size: 23px;
+    line-height: 35px;
+}
+/* للتباعد بين الاسطر */
+
+.firstpar {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+.myskills {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    margin-right: 300px;
+    margin-left: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #DCDCDC;
+    border: #FECB00 10px solid;
+    border-radius: 20px;
+}
+
+
+
+
+
+#skills {
+    padding-top: 40px;
+}
+
+#first-ul {
+    float: right;
+}
+
+
+.technical {
+    text-align: center;
+    padding: 48px 8px;
+}
+
+
+
+
+.technicalh {
+    font-size: 30px;
+}
+
+.cardskills {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+
+.cardskills2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+
+.cardskills3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+
+.skillsimg {
+    width: 150px;
+}
+
+    .skillsimg:hover {
+        opacity: 0.3;
+    }
+
+
+.photography {
+    padding: 0px 220px;
+    font-size: 30px;
+}
+
+.photographypic {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 45px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #000000;
+    color: white;
+}
+
+#my-gallery {
+    width: 1000px;
+}
+
+.cardimg {
+    width: 500px;
+}
+
+.shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.endcard {
+    border: rgb(255, 255, 255) 4px solid
+}
+
+    .endcard:hover {
+        border: rgb(196, 196, 196) 4px solid
+    }
+
+.photography {
+    padding: 0px 265px;
+    font-size: 35px;
+}
+
+.mayyas {
+    width: 250px;
+    padding-left: 60px;
+}
+
+.fa-brands {
+    font-size: 30px;
+    text-decoration: none;
+    color: #F0F0F0
+}
+
+.media {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+#camera {
+    width: 100px;
+}
+
+#fixedimg {
+    position: fixed;
+    top: 650px;
+    Left: 0px;
+}
+
+.textgallery {
+    font-size: 25px;
+}
+
+.contactme {
+    text-decoration: none;
+    color: #F0F0F0;
+    font-size: small;
+    padding-left: 20px;
+}
+
+.contacthim {
+    text-decoration: none;
+    color: #1e1e1e;
+    font-size: medium;
+    border: solid 5px #DCDCDC;
+    background-color: #DCDCDC;
+    border-radius: 9px;
+}
+
+
+.flex-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+    .flex-container > div {
+        margin: 10px;
+    }
+
+.uni {
+    width: 50px;
+    padding-top: 0px;
+    padding-left: 522px;
+    position: absolute;
+    padding-bottom: 5px;
+    transition: width 2s, height 4s;
+}
+
+.ore {
+    width: 40px;
+    padding-top: 3px;
+    padding-left: 525px;
+    position: absolute;
+    transition: width 2s, height 4s;
+}
+
+    .ore:hover {
+        width: 60px;
+        height: auto;
+    }
+
+
+
+
+.uni:hover {
+    width: 70px;
+    height: auto;
+}
+
+
+.mayyass {
+    width: 400px;
+    margin-left: 210px;
+}
+
+.edu-box {
+    background-color: #F0F0F0;
+    padding: 10px;
+    width: 563px;
+    position: static;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.courses-div {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    ;
+}
+
+.cardimgs {
+    width: 200px;
+    float: right;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.course-div {
+    padding: 20px;
+    background-color: #DCDCDC;
+    border: #FECB00 3px solid;
+    width: 500px;
+}
+
+.languages {
+    font-size: 35px;
+    text-align: center;
+}
+
+
+.language {
+    font-size: 30px;
+    text-align: center;
+}
+
+.languageskills {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #DCDCDC;
+    border: #FECB00 10px solid;
+    border-radius: 20px;
+    margin: 40px;
+}
+
+.languagetext {
+    font-size: 23px;
+    line-height: 45px;
+    list-style-type: none;
+    padding-right: 30px;
+}
+
+
+.languagediv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.divskills_ {
+    background-color: #F0F0F0;
+}
+
+#burgur {
+    display: none;
+}
+
+.headerpicphone {
+    display: none;
+}
+
+.cardskillsphon {
+    display: none;
+}
+
+.divgalleryphone {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-device-width: 0px) and (max-device-width:480px) {
+
+
+
+
+    ul.topnav li.right,
+    ul.topnav li {
+        float: none;
+    }
+
+        ul.topnav li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 5px 0px;
+            text-decoration: none;
+        }
+
+    #logo {
+        width: 80px;
+        padding-left: 115px;
+    }
+
+    #myname {
+        font-size: 30px;
+    }
+
+
+    .headerpic {
+        background-image: url(images/headerpic.png);
+        object-fit: cover;
+        object-position: 20;
+        padding: 240px 30px;
+        width: 83%;
+        height: 70px;
+    }
+
+    .educationmayyas {
+        flex-wrap: wrap;
+    }
+
+    .cardskills {
+        flex-wrap: wrap;
+    }
+
+    .cardskills2 {
+        flex-wrap: wrap;
+    }
+
+    .cardskills3 {
+        flex-wrap: wrap;
+    }
+
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+
+    div {
+        flex-wrap: wrap;
+    }
+
+
+    .titles {
+        font-size: 25px;
+        padding-left: 90px;
+        padding-top: 10px;
+    }
+
+    #my-gallery {
+        width: 200px;
+    }
+
+    .cardimg {
+        width: 280px;
+    }
+
+    .photography {
+        padding: 0px 105px;
+        font-size: 15px;
+    }
+
+    .skillsimg {
+        flex-wrap: wrap;
+        width: 155px;
+    }
+
+    .mayyasgallery {
+        opacity: 1;
+        width: 230px;
+    }
+
+
+    .mayyasgallery2 {
+        opacity: 1;
+        width: 230px;
+    }
+
+    .divgallery {
+        flex-wrap: wrap;
+    }
+
+    .textgallery {
+        font-size: 15px;
+    }
+
+    .fa-brands {
+        font-size: 20px;
+        text-decoration: none;
+        color: #F0F0F0
+    }
+
+    .media {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        justify-content: center;
+        column-gap: 10px;
+        row-gap: 10px;
+        padding-right: 30px;
+    }
+
+    .mayyas {
+        width: 250px;
+        padding-left: 0px;
+    }
+
+    h1.firsttext {
+        font-size: 25px;
+        padding-right: 10px;
+    }
+
+    button {
+        height: 39px;
+        width: 130px;
+        font-size: 10px;
+        margin: 0px 10px;
+        padding: 4px -7px;
+        height: 30px;
+        width: 87px;
+    }
+
+    #camera {
+        width: 50px;
+    }
+
+    #fixedimg {
+        position: fixed;
+        top: 1070px;
+        Left: 0px;
+    }
+
+    .mayyass {
+        width: 90%;
+        margin-left: 15px;
+    }
+
+
+
+    .myskills {
+        padding-left: 100px;
+        padding-right: 100px;
+        border: #FECB00 5px solid;
+        background-color: #DCDCDC;
+        flex-wrap: wrap;
+        gap: 0px;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .secondtext {
+        align-items: flex-start;
+        font-size: 17px;
+        line-height: 25px;
+        margin-right: 20px;
+    }
+
+    .course-div {
+        width: 200px;
+    }
+
+    .uni {
+        display: none;
+        width: 0px;
+        position: static;
+    }
+
+    .ore {
+        display: none;
+        width: 0px;
+        position: static;
+    }
+
+    .edu-box {
+        padding: 10px;
+        width: 280px;
+    }
+
+    .topnav {
+        width: 60%;
+    }
+
+    .ore {
+        width: 0px;
+    }
+
+    .uni {
+        width: 0px;
+    }
+
+
+
+
+    .technicalh {
+        font-size: 20px;
+    }
+
+    .languages {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .language {
+        font-size: 20px;
+    }
+
+    .languagetext {
+        font-size: 15px;
+    }
+
+    .navbar {
+        width: 167%;
+    }
+
+    .technical {
+        width: 95%;
+    }
+
+    .right {
+        display: none;
+    }
+
+    #logo:hover {
+        display: none;
+    }
+
+    #burgur {
+        display: inline-block;
+        font-size: 40px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        color: #000000;
+        margin-left: 60px;
+        margin-top: 10px;
+    }
+
+        #burgur:hover {
+            color: #FECB00;
+        }
+
+    .navbar {
+        display: flex;
+        flex-wrap: none;
+    }
+
+    .headerpicphone {
+        display: block;
+        background-color: #F0F0F0;
+    }
+
+    #headermayyas {
+        width: 100%;
+    }
+
+    .firstparphone {
+        padding-left: 20px;
+    }
+
+    #mynamephone {
+        padding-left: 18px;
+        font-size: 35px;
+    }
+
+    .phonpic {
+        background-image: url(images/headerpic2.png);
+        background-size: cover;
+        width: 320px;
+        height: 160px;
+    }
+
+    #buttoncv {
+        margin-top: 100px;
+    }
+
+    .headerpic {
+        display: none;
+    }
+
+    #skills {
+        padding-right: 80px;
+        font-size: 25px;
+        padding-left: 105px;
+        padding-top: 10px;
+    }
+
+    .cardskills {
+        display: none;
+    }
+
+    .cardskills2 {
+        display: none;
+    }
+
+    .cardskills3 {
+        display: none;
+    }
+
+
+    .cardskillsphon {
+        display: grid;
+        justify-content: center;
+        overflow: scroll;
+        width: 100%;
+        height: 500px;
+        gap: 5px;
+    }
+
+    .divgallery {
+        display: none;
+    }
+
+    .divgalleryphone {
+        display: grid;
+        justify-content: center;
+        overflow: scroll;
+        height: 400px;
+        width: 100%;
+        gap: 5px;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-device-width: 481px) and (max-device-width:768px) {
+
+
+
+    #myname {
+        font-size: 40px;
+        padding-left: 40px;
+    }
+
+
+
+
+    .firstpar {
+        margin-bottom: 0px;
+        font-size: 15px;
+        padding-left: 40px;
+    }
+
+
+
+
+
+
+    #mypics {
+        margin-bottom: 40px;
+    }
+
+
+
+
+
+    .headerpic {
+        background-image: url(images/headerpic.png);
+        padding: 45px 0px;
+        width: 100%;
+    }
+
+
+
+    button {
+        font-size: 10px;
+        padding: 5px;
+    }
+
+
+
+    .cardskills {
+        flex-wrap: wrap;
+    }
+
+    .cardskills2 {
+        flex-wrap: wrap;
+    }
+
+    .cardskills3 {
+        flex-wrap: wrap;
+    }
+
+    .myskills {
+        flex-wrap: wrap;
+        gap: 0px;
+        margin-right: 160px;
+        margin-left: 160px;
+    }
+
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+
+
+    #my-gallery {
+        width: 740px;
+    }
+
+    .photographypic {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        gap: 20px;
+        padding-bottom: 45px;
+    }
+
+    .cardimg {
+        width: 350px;
+    }
+
+    .navbar {
+        width: 100%;
+    }
+
+    .titles {
+        font-size: 35px;
+        padding-left: 50px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .secondtext {
+        font-size: 20px;
+    }
+
+    .educationmayyas {
+        flex-wrap: wrap;
+    }
+
+
+
+    .firsttext {
+        font-size: 20px;
+    }
+
+    #div2023 {
+        position: absolute;
+        bottom: 315px;
+        left: 475px;
+    }
+
+    #div2022 {
+        position: absolute;
+        bottom: 180px;
+        left: 475px;
+        width: 2px;
+        height: 4px;
+    }
+
+    #line1 {
+        position: static;
+        top: 158px;
+        left: 645px;
+    }
+
+    #line2 {
+        position: static;
+        top: 22px;
+        left: 645px;
+        width: 10px;
+    }
+
+
+    #certificates {
+        padding-top: 20px;
+    }
+
+    .photography {
+        padding: 0px 300px;
+        font-size: 25px;
+    }
+
+    .technicalh {
+        font-size: 25px;
+    }
+
+    .mayyasgallery {
+        opacity: 1;
+        width: 230px;
+    }
+
+
+    .mayyasgallery2 {
+        opacity: 1;
+        width: 230px;
+    }
+
+    .divgallery {
+        flex-wrap: wrap;
+    }
+
+    #camera {
+        width: 70px;
+    }
+
+    #fixedimg {
+        position: fixed;
+        top: 600px;
+        Left: 0px;
+    }
+
+    .textgallery {
+        font-size: 20px;
+    }
+
+
+    ul.topnav li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 10px 0px;
+        text-decoration: none;
+    }
+
+
+
+
+    .uni {
+        width: 0px;
+    }
+
+    .ore {
+        width: 0px;
+    }
+
+
+
+    .course-div {
+        width: 290px;
+    }
+
+
+    .flex-container {
+        flex-wrap: wrap;
+    }
+
+    .mayyass {
+        width: 200px;
+        margin-left: 270px;
+    }
+
+    .flex-container > div {
+        margin: 21px;
+    }
+
+    .edu-box {
+        margin-left: 40px;
+        width: 590px;
+    }
+
+
+    .languageskills {
+        margin: 15px;
+    }
+
+    #gall {
+        margin-left: 25px;
+    }
+
+
+    .technical {
+        text-align: center;
+        padding: 48px 8px;
+    }
+
+
+
+    .experience {
+        width: 97%;
+    }
+
+    footer {
+        width: 102%;
+    }
+
+    .courses-div {
+        padding-left: 23px;
+    }
+
+    #refe {
+        padding-left: 45px;
+    }
+}

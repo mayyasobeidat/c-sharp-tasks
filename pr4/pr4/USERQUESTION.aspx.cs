@@ -82,6 +82,7 @@ namespace pr4
 
             if (x == 4)
             {
+                x = 1;
                 Response.Redirect("resulttt.aspx");
             }         
             x++;

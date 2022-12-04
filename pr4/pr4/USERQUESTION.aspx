@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Survey</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleSheet3.css">
 </head>
 <body>
     <form id="form1" runat="server">
@@ -33,33 +33,31 @@
 
         <div class="question-box-small">
 
-        <asp:Label class="question"  ID="Label1" runat="server" Text="" Font-Size="30px" Font-Bold="True"></asp:Label>
+        <asp:Label class="question"  ID="Label1" runat="server" Text="" Font-Size="20px" Font-Bold="True"></asp:Label>
 
 
 
 <div class="answer">
  <span class="qu">
- <asp:RadioButton ID="RadioButton1" runat="server" value="ahmad" GroupName="ahmad"  Text="EXCELENT"/>
+ <asp:RadioButton  ID="RadioButton1" runat="server" value="ahmad" GroupName="ahmad"  Text="Excelent"  />
 </span>      
     
 
  <span class="qu">
-<asp:RadioButton ID="RadioButton2" runat="server" GroupName="ahmad" Text="VERY GOOD" />
+<asp:RadioButton ID="RadioButton2" runat="server" GroupName="ahmad" Text="Very Good" />
 </span>         
 
  <span class="qu">
- <asp:RadioButton ID="RadioButton3" runat="server"  GroupName="ahmad" Text="GOOD"  />
+ <asp:RadioButton ID="RadioButton3" runat="server"  GroupName="ahmad" Text="Good"  />
 </span>         
 
  <span class="qu">
-<asp:RadioButton ID="RadioButton4" runat="server" GroupName="ahmad"  Text="POOR" />
+<asp:RadioButton ID="RadioButton4" runat="server" GroupName="ahmad"  Text="Poor" />
 </span>         
 
- <span class="qu">
-<div class="buttt"> <asp:Button class="butt" ID="Button1" runat="server" Text="Next" OnClick="Button1_Click" /></div>
-</span>         
         </div>
-       
+       <div class="buttt"> <asp:Button class="butt" ID="Button1" runat="server" Text="Next" OnClick="Button1_Click" /></div>
+
 </div>
         </div>
 

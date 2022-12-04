@@ -27,7 +27,6 @@ namespace pr4
             string user_result = Server.MapPath("Texts");
             var user = Directory.EnumerateFiles(user_result).Select(Path.GetFileName);
             bool flag = true;
-            if (flag) { }
 
             if (TextBox1.Text != "" && TextBox2.Text != "")
             {
@@ -47,13 +46,26 @@ namespace pr4
                                 string[] name = check.Split('-');
                                 if (TextBox2.Text == name[0])
                                 {
-                                    flag = false;
-                                    break;
+                                    string[] lines = File.ReadAllLines(Server.MapPath($"Texts/{check}"));
+                                    if (lines.Length == 10)
+                                    {
+
+                                        flag = false;
+                                        break;
+                                    }
+                                    else
+                                    {
+                                        int value = lines.Length - 1;
+                                        Response.Redirect("WECOMING.aspx?username=" + TextBox1.Text + "&password=" + TextBox2.Text + "&start=" + value);
+
+                                    }
                                 }
                             }
                             if (flag)
                             {
-                                Response.Redirect("WECOMING.aspx?username=" + TextBox1.Text + "&password=" + TextBox2.Text);
+                                int value = 1;
+
+                                Response.Redirect("WECOMING.aspx?username=" + TextBox1.Text + "&password=" + TextBox2.Text + "&start=" + value);
                             }
                             else
                             {

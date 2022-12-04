@@ -1,0 +1,176 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+html {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+
+.home {
+    width: 100%;
+    background-color: #2672AB;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+
+nav {
+    padding:1% 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    nav ul li {
+        list-style: none;
+        display: inline-block;
+        margin: 0.8rem 1.5rem;
+    }
+
+.well {
+    font-size: 50px;
+
+}
+
+h4 {
+    color: white;
+}
+
+
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.buttn {
+    width: 140px;
+    height: 40px;
+    background-color: #2672AB;
+    border-radius: 5px;
+    color: #F5F5F5;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.classDiv {
+    margin-top: 50px;
+}
+
+
+#logIn {
+    background-color: white;
+    color: #2672AB;
+    text-decoration: none;
+    padding: 0.30rem 1rem;
+    margin-top: 2.5rem;
+    border-radius: 10px;
+    font-size:15px;
+}
+
+    #logIn:hover {
+        background-color: transparent;
+        border: 2px solid;
+        color: deepskyblue;
+    }
+
+
+
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 10%;
+}
+
+.home .container-images img {
+    object-fit: contain;
+    width: 100%;
+}
+
+#footer1 {
+    background-color: #2672AB;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    bottom: 0px;
+}
+
+#rights {
+    color: #FFFFFF;
+    font-size: 10px;
+}
+
+
+
+
+@media only screen and (min-device-width: 481px) and (max-device-width:768px) {
+    .content {
+        flex-direction: column;
+    }
+
+        .content img {
+            width: 300px;
+        }
+
+    .well {
+        margin-bottom: 40px;
+    }
+    .content {
+        padding: 10%;
+    }
+}
+
+@media only screen and (min-device-width: 0px) and (max-device-width:480px) {
+    #imgg {
+        width: 100px;
+    }
+
+    .well {
+        font-size: 30px;
+        margin-bottom: 30px;
+        margin-top: 0;
+    }
+
+    nav ul li a {
+        font-size: 1rem;
+        flex-direction: row;
+    }
+
+    h4 {
+        font-size: .70rem;
+    }
+
+    .content img {
+        width: 250px;
+        margin-top: 20px;
+    }
+
+    .content {
+        flex-wrap: wrap;
+        padding:10%;
+    }
+
+    .classDiv {
+        margin-left: 60px;
+    }
+
+    nav {
+        padding-right: 0;
+    }
+}

@@ -17,7 +17,9 @@ namespace pr4
         protected void Page_Load(object sender, EventArgs e)
         {
             string user = Request.QueryString["username"];
-            Label1.Text ="Hello"+" " +user;
+            string[] username = user.Split('@');
+            Label1.Text = "Hello" + " " + username[0];
+            string pass = Request.QueryString["password"];
         }
         
         static DateTime date =DateTime.Now;
@@ -27,8 +29,11 @@ namespace pr4
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            string user = Request.QueryString["username"];            
-            Response.Redirect("USERQUESTION.aspx?username=" + user);
+            string user = Request.QueryString["username"];
+            string pass = Request.QueryString["password"];
+            string value = Request.QueryString["start"];
+            string[] username = user.Split('@');
+            Response.Redirect("USERQUESTION.aspx?username=" + user + "&password=" + pass + "&start=" + value );
 
         }        
     }

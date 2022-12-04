@@ -78,6 +78,7 @@
     <Content Include="resulttt.aspx" />
     <Content Include="StyleSheet1.css" />
     <Content Include="StyleSheet4.css" />
+    <Content Include="StyleSheetWelcome.css" />
     <Content Include="TextFile1.txt" />
     <Content Include="TextFile2.txt" />
     <Content Include="USERQUESTION.aspx" />

@@ -19,8 +19,7 @@ namespace pr4
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            string Path = "C:\\Users\\dell\\Downloads\\C-TASKS-main\\C-TASKS-main\\pr4\\pr4\\TextFile1.txt";
-
+            string Path = Server.MapPath("TextFile1.txt");
             using (StreamWriter q = File.AppendText(Path))
             {
                 q.WriteLine(TextBox1.Text);

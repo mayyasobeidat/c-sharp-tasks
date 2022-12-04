@@ -4,29 +4,35 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>LogIn</title>
-<link rel="stylesheet" href="StyleSheet1.css"/>
+<link href="loginstyle.css" rel="stylesheet" />
+
 </head>
 <body>
     <form id="form1" runat="server">
-        <div class="box">
-            <div class="row">
-                <asp:Label ID="Label1" runat="server" Text="User Name :" Font-Size="20px"></asp:Label>
-                <asp:TextBox ID="TextBox1" runat="server" OnTextChanged="TextBox1_TextChanged"></asp:TextBox>
-                </div >
-            
-            <div class="row">
-                <asp:Label ID="Label2" runat="server" Text="Password :"  Font-Size="20px"></asp:Label>&nbsp; &nbsp;
-                <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+        <nav id="navbar"><img id="logo" src="logo.png"></nav>
+
+        <div class="LogInContainer">
+
+             <div>
+            <asp:Image CssClass="logimg" ID="Image1" runat="server" ImageUrl="~/Models/1.4.png"/>
+                 </div>
+
+            <div class="InputContain">
+                <h2 class="signtext">SIGN IN</h2>
+                <asp:TextBox CssClass="input" ID="TextBox1" runat="server" OnTextChanged="TextBox1_TextChanged" type="email" placeholder=" Your Email :" style="padding:20px"></asp:TextBox>
+                <asp:TextBox CssClass="input" ID="TextBox2" runat="server" type="password" placeholder=" Your Password :" style="padding:20px" ></asp:TextBox>
                 <asp:Label ID="Label3" runat="server" Text=""></asp:Label>
+                <asp:Button ID="Button1" CssClass="button" runat="server" Text="Sign in" OnClick="Button1_Click" />
+
             </div>
-            
-            <div class="row">
-                <div class="but">
-                    <asp:Button ID="Button1" runat="server" Text="submit" OnClick="Button1_Click"   Width="120px"/>
-                </div>
-            </div>
+
         </div>
+    <footer id="footer1"><p id="rights">© 2022 Social Hawk. All Rights Reserved</p></footer>
+
     </form>
 </body>
 </html>

@@ -74,6 +74,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="admin.aspx" />
+    <Content Include="loginstyle.css" />
     <Content Include="resulttt.aspx" />
     <Content Include="StyleSheet1.css" />
     <Content Include="StyleSheet4.css" />

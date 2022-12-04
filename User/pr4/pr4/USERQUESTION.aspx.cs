@@ -26,11 +26,10 @@ namespace pr4
         static string user;
         protected void Page_Load(object sender, EventArgs e)
         {
-            string Path = "C:\\Users\\dell\\Downloads\\C-TASKS-main\\C-TASKS-main\\pr4\\pr4\\TextFile1.txt";
+            string Path = Server.MapPath("TextFile1.txt");
             string[] quest = File.ReadAllLines(Path);
 
             Label1.Text = quest[0];
-            string path2 = "C:\\Users\\dell\\Downloads\\C-TASKS-main\\C-TASKS-main\\pr4\\pr4\\TextFile2.txt";
 
             user = Request.QueryString["username"];
         }
@@ -44,7 +43,7 @@ namespace pr4
 
         {
 
-            string Path = "C:\\Users\\dell\\Downloads\\C-TASKS-main\\C-TASKS-main\\pr4\\pr4\\TextFile1.txt";
+            string Path = Server.MapPath("TextFile1.txt");
             string[] quest = File.ReadAllLines(Path);
 
             Label1.Text = quest[x]; 
@@ -52,7 +51,7 @@ namespace pr4
             DateTime date= DateTime.Now;
             
             now = date.ToString("MM-dd-yyyy");
-            string path2 = $"C:\\Users\\dell\\Downloads\\C-TASKS-main\\C-TASKS-main\\pr4\\pr4\\{user+ now}.txt";
+            string path2 = Server.MapPath($"{user+ now}.txt");
 
             using (StreamWriter q = File.AppendText(path2))
             {
@@ -83,7 +82,7 @@ namespace pr4
 
             if (x == 10)
             {
-                x = 0;
+                x = 1;
                 Response.Redirect("resulttt.aspx?username=" + user);
 
 

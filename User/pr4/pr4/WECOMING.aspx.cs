@@ -21,23 +21,15 @@ namespace pr4
         }
         
         static DateTime date =DateTime.Now;
-        public string path = $"C:\\Users\\dell\\Downloads\\C-TASKS-main\\C-TASKS-main\\pr4\\pr4\\{"ppp"+date}.txt";
 
         private static object user;
 
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            string user = Request.QueryString["username"];
-            
+            string user = Request.QueryString["username"];            
             Response.Redirect("USERQUESTION.aspx?username=" + user);
 
-            FileStream fs = null;
-            fs = new FileStream("ooo", FileMode.CreateNew);
-            using (StreamWriter writer = new StreamWriter(fs))
-            {
-                writer.Write("ppppppppppppppp");
-            }
         }        
     }
 }

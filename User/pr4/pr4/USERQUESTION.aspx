@@ -14,7 +14,7 @@
     <form id="form1" runat="server">
 
                 <!-- Navbar code -->
-                <nav id="navbar"><img id="logo" src="logo.png"></nav>
+                <nav id="navbar"><a href="HomePage.html"><img id="logo" src="logo.png"></a></nav>
                 
                 <!-- question box -->
                 <div class="body-div">

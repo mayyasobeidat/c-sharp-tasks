@@ -1,11 +1,11 @@
-﻿1.The management team is committed to the provision of high-quality products.
-2.My targets are clearly defined by my boss.
-3.I have the opportunity to fully use my skills, knowledge, and professional abilities.
-4.I have the freedom to speak my mind in the workplace.
-5.There is a high level of alignment between the training needs and the objectives of the training programs conducted here.
-6.Training programmes are planned and implemented to help achieve specific organizational goals.
-7.The result of your performance review actually reflects the reality of your job performance.
-8.You have confidence in what you are told by management.
-9.Your thoughts and opinions are taken into account by your direct manager when making decisions.
-10.Your workplace is comfortable and safe.
+﻿1.I understand what is C# and what it is used for?
+2.I understand the C# fundamentals (variables, arrays, objects, strings)
+3.I understand what is a conditional statement is such as If statement and why we use it
+4.I understand what is a method, and I can create and call a method
+5.I understand what is loop is such as for loop and why we use it
+6.I understand what is oop concept in c#?
+7.What is difference between Abstract Class and Interface in C#?
+8.I understand When and why to use method Overloading?
+9.Can you create object of class with private constructor in C#?
+10.I understsnd how to read or write or creat file in asp .net web form?
 .

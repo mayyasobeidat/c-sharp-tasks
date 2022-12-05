@@ -12,33 +12,20 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-            <section class="home" id="home">
-        <nav>
-            <image id="imgg" src="ppppp.png" width="240px"/>
-            <ul>
-                <li><a id ="logIn">Log Out</a></li>
-            </ul>
-        </nav>
-     </section>  
-       <div class="content">
-        <div class="container-texts">
-            <asp:Label ID="Label1" runat="server" CssClass="well"></asp:Label>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error harum nesciunt maiores accusantium nostrum molestias ad non sit quam maxime quos odit praesentium quibusdam, repellendus amet? Rerum vitae dolores id.</p>          
-         <div class="classDiv"><asp:Button ID="Button2" runat="server" Text="Start Survey" OnClick="Button1_Click" class="buttn"/></div>
-        </div>
-        <div class=""><img src="home2.png" alt="" class="pic" width="600px"/></div>
-      </div>
+        <div class="backimg">
+            <section class="home" id="home"><nav>
+                    <a href="HomePage.html"><image id="imgg" src="logo.png" width="240px"/></a>
+                    <ul><li><a id ="logIn" href="WebForm1.aspx">Log Out</a></li></ul></nav></section>
             
-
-    
+            <div class="box2">
+                <div class="textandbut">
+                    <asp:Label ID="Label1" runat="server" CssClass="well"></asp:Label>
+                    <p>Our survey awaits you about the c# course we gave you. We hope you will fill out this questionnaire which will guide us to be the best always.</p>
+                    <asp:Button ID="Button2" runat="server" Text="Start Survey" OnClick="Button1_Click" class="buttn"/>
+                </div>
+            </div>
         </div>
-
         <footer id="footer1"><p id="rights">© 2022 Social Hawk. All Rights Reserved</p></footer>
-
-        <div class="footer">
-        <div class="content-footer"><h4>© 2022 Social Hawk. All Rights Reserved</h4></div>
-     </div>
     </form>
 </body>
 </html>

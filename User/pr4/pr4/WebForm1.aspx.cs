@@ -18,11 +18,10 @@ namespace pr4
         protected void Button1_Click(object sender, EventArgs e)
         {
 
-            string[] employees = { "Amer@gmail.com", "mayyas@gmail.com", "mosab@gmail.com", "suhaib@gmail.com", "ahmadodat@gmail.com", "moaath@gmail.com", "razan@gmail.com", "qais@gmail.com", "roaa@gmail.com", "haitham@gmail.com" };
-            string[] password = { "03", "15", "21", "33", "01", "23", "30", "25", "32", "09" };
+            string[] employees = {"momen@gmail.com", "Amer@gmail.com", "mayyas@gmail.com", "mosab@gmail.com", "suhaib@gmail.com", "ahmadodat@gmail.com", "moaath@gmail.com", "razan@gmail.com", "qais@gmail.com", "roaa@gmail.com", "haitham@gmail.com","yazeed@gmail.com" };
+            string[] password = {"19", "03", "15", "21", "33", "01", "23", "30", "25", "31", "09","35" };
             string adminname = "ashraf@gmail.com";
             string adminpass = "04";
-
 
             string user_result = Server.MapPath("Texts");
             var user = Directory.EnumerateFiles(user_result).Select(Path.GetFileName);
@@ -32,7 +31,7 @@ namespace pr4
             {
                 if (adminname == TextBox1.Text && adminpass == TextBox2.Text)
                 {
-                    Response.Redirect("admin.aspx?username=" + TextBox1.Text);
+                    Response.Redirect("Test.aspx?username=" + TextBox1.Text);
                 }
 
                 else
@@ -49,7 +48,6 @@ namespace pr4
                                     string[] lines = File.ReadAllLines(Server.MapPath($"Texts/{check}"));
                                     if (lines.Length == 10)
                                     {
-
                                         flag = false;
                                         break;
                                     }
@@ -57,7 +55,6 @@ namespace pr4
                                     {
                                         int value = lines.Length - 1;
                                         Response.Redirect("WECOMING.aspx?username=" + TextBox1.Text + "&password=" + TextBox2.Text + "&start=" + value);
-
                                     }
                                 }
                             }
@@ -69,13 +66,13 @@ namespace pr4
                             }
                             else
                             {
-                                Response.Write("<script> alert('You took the survey ') </script>");
+                                Response.Write("<script> alert('You alredy took the survey ') </script>");
                             }
 
                         }
                         else
                         {
-                            Label3.Text = "You are not welcoming";
+                            Label3.Text = "Sorry, we could not find your account.";
                         }
                     }
                 }

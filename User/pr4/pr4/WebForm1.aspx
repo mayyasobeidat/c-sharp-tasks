@@ -13,26 +13,18 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <nav id="navbar"><img id="logo" src="logo.png"></nav>
-
+        <nav id="navbar"><a href="HomePage.html"><img id="logo" src="logo.png"></a></nav>
         <div class="LogInContainer">
-
-             <div>
-            <asp:Image CssClass="logimg" ID="Image1" runat="server" ImageUrl="~/Models/1.4.png"/>
-                 </div>
-
+            <div><asp:Image CssClass="logimg" ID="Image1" runat="server" ImageUrl="~/Models/1.4.png"/></div>
             <div class="InputContain">
                 <h2 class="signtext">SIGN IN</h2>
                 <asp:TextBox CssClass="input" ID="TextBox1" runat="server" OnTextChanged="TextBox1_TextChanged" type="email" placeholder=" Your Email :" style="padding:20px"></asp:TextBox>
                 <asp:TextBox CssClass="input" ID="TextBox2" runat="server" type="password" placeholder=" Your Password :" style="padding:20px" ></asp:TextBox>
                 <asp:Label ID="Label3" runat="server" Text=""></asp:Label>
                 <asp:Button ID="Button1" CssClass="button" runat="server" Text="Sign in" OnClick="Button1_Click" />
-
-            </div>
-
+                </div>
         </div>
-    <footer id="footer1"><p id="rights">© 2022 Social Hawk. All Rights Reserved</p></footer>
-
+        <footer id="footer1"><p id="rights">© 2022 Social Hawk. All Rights Reserved</p></footer>
     </form>
 </body>
 </html>

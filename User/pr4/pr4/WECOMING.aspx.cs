@@ -18,7 +18,7 @@ namespace pr4
         {
             string user = Request.QueryString["username"];
             string[] username = user.Split('@');
-            Label1.Text = "Hello" + " " + username[0];
+            Label1.Text = username[0];
             string pass = Request.QueryString["password"];
         }
         

@@ -14,14 +14,15 @@ namespace pr4
         {
 
             string user = Request.QueryString["username"];
-            Label1.Text = "Thank You" + "  " + user;
+            string[] username = user.Split('@');
+            Label1.Text = "Thank you" + "  " + username[0]; 
 
 
         }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Response.Redirect("WebForm1.aspx?username=");
+            Response.Redirect("HomePage.html?username=");
 
         }
     }

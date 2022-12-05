@@ -36,7 +36,7 @@ namespace pr4
 
                 Label1.Text = quest[0];
             }
-            else
+         else if(test!="1")
             {
                 Label1.Text = quest[Convert.ToInt32(test)+1];
             }
@@ -45,7 +45,7 @@ namespace pr4
         }
 
         protected void RadioButton2_CheckedChanged(object sender, EventArgs e){}
-
+        
         static int x = Convert.ToInt32(test) + 1;
         protected void Button1_Click(object sender, EventArgs e)
 
